@@ -1,27 +1,33 @@
+/* class için  .text-red{} */
+/* id -> #id-bilgisi {} */
 
-/* Yorum satırı */
+h1,h2,h3,h4,h5,h6 {
+    color: #665757;
+}
 
-/*
+h1 {
+    font: size 30px;
+    
+}
+#first-article {
+    font-size: 40px
+}
 
-/********** LAYOUT ************/
+.text-orange{
+    color:orange;
+}
 
-        body {
-            background-color: black;
-            color:white;
-            font-family: 'Courier New', Courier, monospace;
+.fs-small {
+    font-size: 16px;
+}
 
-    }
-        h2 {
-            color: rgb(255, 0, 200);
-            font-size:100;
-        }
+.fs-medium {
 
+    font-size: 24px;
+}
 
-        p {
-            color: #df046a;
-            font-size:46px
-        }
+.fs-large{
 
-        ul {
-            color:aqua
-        }
+    font-size: 32px;
+
+}
